@@ -2,9 +2,11 @@
   font-family: "inter";
   src: url('../assets/fonts/Inter.ttf');
 }
+
 * {
   font-family: "inter";
 }
+
 body {
   background-color: #DADADA;
 }
@@ -27,11 +29,6 @@ body::-webkit-scrollbar-thumb:hover {
 .text-main-blue{
   color:#143F5F
 }
-.fs-7 {
-  font-size: calc(2.7rem + 1.5vw) !important;
-}
-
-
 
 header {
   border-radius: 0 0 70px 70px;
@@ -39,13 +36,16 @@ header {
 header .logo {
   width: 45px;
 }
+header #jumbotron .murah-lengkap-praktis p{
+  font-size: 0.625rem;
+}
 header #jumbotron .auth-btn {
   border-radius: 0.4rem;
   border: solid 2px white;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.189);
+  box-shadow: 10px 10px 10px #00000030;
 }
 header #jumbotron .auth-btn:hover {
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.377);
+  box-shadow: 10px 10px 20px #00000060;
   color: white;
   background-color: #143F5F;
 }
@@ -69,13 +69,13 @@ header #jumbotron .stats p {
 }
 header nav .nav-item button {
   border: solid 3px white;
+  width: 177px;
+  height: 48px;
 }
 header nav .nav-item button:hover {
   background-color: #143F5F;
   color: white;
 }
-
-
 
 #tentang {
   margin-top: 15rem;
@@ -85,10 +85,12 @@ header nav .nav-item button:hover {
 }
 #tentang p {
   font-size: 0.7rem;
+  margin-top: -5px;
 }
 
-
-
+.card-layanan .card {
+  box-shadow: 5px 5px 10px #0000006c;
+}
 .card-layanan h5 {
   font-size: 0.65rem;
 }
@@ -105,9 +107,8 @@ header nav .nav-item button:hover {
   margin-top: -1.5rem;
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.653);
+  box-shadow: 5px 5px 10px #0000006a;
 }
-
-
 
 #fitur {
   margin-top: 8rem;
@@ -135,8 +136,6 @@ header nav .nav-item button:hover {
   box-shadow: 5px 5px 10px #0000007d;
 }
 
-
-
 #store {
   margin-top: 12rem;
 }
@@ -144,10 +143,11 @@ header nav .nav-item button:hover {
   font-size:0.55rem;
 }
 
-
-
 #steps {
   margin-top: 3rem;
+}
+#steps .card {
+  box-shadow: 7px 7px 10px #00000051;
 }
 #steps .card-header p {
   font-size: 0.438rem
@@ -168,67 +168,56 @@ header nav .nav-item button:hover {
   gap: 3rem;
 }
 
-
-
 #carousel {
   margin-top: 7rem;
 }
 #carousel .card {
-  box-shadow: 10px 10px 10px #00000047;
+  box-shadow: 7px 7px 7px #00000047;
   background-color: rgba(255, 255, 255, 0.734);
-  min-height: 15rem;
+  min-height: 28rem;
   border-radius: 1rem;
 }
 #carousel .carousel-head p {
   font-size: 0.625rem;
 }
-#carousel .card h5 {
-  font-size: 0.875rem;
-}
 #carousel .card .text-center p {
-  font-size: 0.5rem;
   margin-top: -0.4rem;
 }
 #carousel .card .card-text {
-  font-size: 0.55rem;
   color: #555555;
 }
 
-
-
-#regist-email {
+#buletin-regist {
   margin-top: 6rem;
   margin-bottom: -3rem;
   margin-inline: 2rem;
 }
-#regist-email .card {
+#buletin-regist .card {
   border-radius: 1rem;
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.653);
   box-shadow: 5px 5px 15px #00000070;
 }
-#regist-email h3{
+#buletin-regist h3{
   font-size: 0.875rem;
 }
-#regist-email p{
+#buletin-regist p{
   font-size: 0.5rem;
 }
-#regist-email input {
+#buletin-regist input {
   border: solid 2px #143F5F;
   border-radius: 7px;
   font-size: 0.5rem;
 }
-#regist-email button {
+#buletin-regist button {
   font-size: 0.5rem;
   color: white;
   border: solid 2px #143F5F;
 }
-#regist-email button:hover {
+#buletin-regist button:hover {
   background-color: white;
   color: #143F5F;
 }
-
-
 
 footer img {
   width: 120px;
@@ -247,8 +236,8 @@ footer a:hover {
 }
 footer #copyright {
   font-size: 0.5rem;
+  background-color:#062238;
 }
-
 
 
 /* Medium */
@@ -259,8 +248,14 @@ footer #copyright {
   header .company-name{
     font-size: calc(1.275rem + 0.3vw) !important
   }
-  header .murah-lengkap-praktis{
+  header #jumbotron .murah-lengkap-praktis{
     margin-top: 8rem;
+  }
+  header #jumbotron .murah-lengkap-praktis h1{
+    font-size: calc(2.7rem + 1.5vw);
+  }
+  header #jumbotron .murah-lengkap-praktis p{
+    font-size: 1.25rem;
   }
   header #jumbotron .auth-btn{
     border-radius: 1rem
@@ -281,17 +276,6 @@ footer #copyright {
     font-size: 0.7rem;
   }
 
-
-  .fs-md-7{
-    font-size: calc(2.7rem + 1.5vw) !important
-  }
-
-  .fs-md-5 {
-    font-size: 1.25rem !important
-  }
-
-
-
   #tentang {
     margin-top: 40rem;
   }
@@ -301,8 +285,6 @@ footer #copyright {
   #tentang p {
     font-size: 1.2rem;
   }
-
-
 
   .card-layanan h5 {
     font-size: 1.375rem;
@@ -320,8 +302,6 @@ footer #copyright {
     backdrop-filter: blur(5px);
     background-color: rgba(255, 255, 255, 0.653);
   }
-
-
 
   #fitur {
     margin-top: 12rem;
@@ -343,8 +323,6 @@ footer #copyright {
     height: 15rem;
   }
 
-
-
   #store {
     margin-top: 20rem;
   }
@@ -354,8 +332,6 @@ footer #copyright {
   #store p {
     font-size:1.25rem;
   }
-
-
 
   #steps {
     margin-top: 10rem;
@@ -385,13 +361,8 @@ footer #copyright {
     gap: 6rem;
   }
 
-
-
   #carousel {
     margin-top: 17rem;
-  }
-  #carousel .card {
-    min-height: 23rem;
   }
   #carousel .carousel-head h3 {
     font-size: 3rem;
@@ -409,24 +380,27 @@ footer #copyright {
     font-size: 0.75rem;
   }
 
-
-
-  #regist-email {
+  #buletin-regist {
     margin-top: 8rem;
+    margin-inline: 7rem;
   }
-  #regist-email h3{
+  #buletin-regist h3{
     font-size: 2.875rem;
   }
-  #regist-email p{
+  #buletin-regist p{
     font-size: 1.25rem;
   }
-  #regist-email input {
+  #buletin-regist input {
     border: solid 3.5px #143F5F;
     border-radius: 20px;
+    font-size: 1rem;
+    padding-block: 1rem;
   }
-   
-
-
+  #buletin-regist button {
+    font-size: 1rem;
+    padding-block: 1rem;
+    border-radius: 15px;
+  }
 
   footer img {
     width: 187px;
@@ -443,23 +417,8 @@ footer #copyright {
   footer #copyright {
     font-size: 1rem;
   }
-
-
-
-  #regist-email {
-  margin-inline: 12rem;
-  }
-  #regist-email input {
-    font-size: 1rem;
-    padding-block: 1rem;
-  }
-  #regist-email button {
-    font-size: 1rem;
-    padding-block: 1rem;
-    border-radius: 15px;
-  }
-  
 }
+
 
 /* Large */
 @media (min-width: 992px) {
@@ -482,8 +441,6 @@ footer #copyright {
     font-size: 1.3rem;
   }
 
-
-
   .card-icon-layanan {
     height: 5rem;
     width: 5rem;
@@ -495,14 +452,13 @@ footer #copyright {
     font-size: 0.752rem;
   }
 
-
-
   #fitur {
     margin-top: 15rem;
   }
   #fitur-right {
     margin-bottom: -14rem;
   }
+
   #steps {
     padding-inline: 7rem;
   }
@@ -512,7 +468,6 @@ footer #copyright {
   #steps .list-icon {
     margin-right: -3rem;
   }
-
 
   #carousel .card {
     min-height: 33rem;
@@ -527,16 +482,17 @@ footer #copyright {
   #carousel .card .card-text {
     font-size: 1rem;
   }
-  #regist-email input {
-    font-size: 1rem;
 
+  #buletin-regist {
+    margin-inline: 12rem;
   }
-
+  #buletin-regist input {
+    font-size: 1rem;
+  }
 }
 
 /* Extra Large */
 @media (min-width: 1200px) {
-
   #fitur-right h1{
     font-size: 2.125rem;
   }
@@ -548,11 +504,7 @@ footer #copyright {
     height: 18rem;
   }
 
-
-
   .card-layanan #card-text {
     font-size: 1rem;
   }
-
-
 }
