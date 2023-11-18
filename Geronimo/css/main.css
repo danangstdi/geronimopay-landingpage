@@ -1,0 +1,518 @@
+@font-face {
+  font-family: "inter";
+  src: url('../assets/fonts/Inter.ttf');
+}
+
+* {
+  font-family: "inter";
+}
+
+body {
+  background-color: #DADADA;
+}
+body::-webkit-scrollbar {
+  width:10px;
+}
+body::-webkit-scrollbar-track {
+  background: white;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #143F5F;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #4178a1;
+}
+
+.bg-main-blue{
+  background-color:#143F5F
+}
+.text-main-blue{
+  color:#143F5F
+}
+
+header {
+  border-radius: 0 0 70px 70px;
+}
+header .logo {
+  width: 45px;
+}
+header #jumbotron .murah-lengkap-praktis p{
+  font-size: 0.625rem;
+}
+header #jumbotron .auth-btn {
+  border-radius: 0.4rem;
+  border: solid 2px white;
+  box-shadow: 10px 10px 10px #00000030;
+}
+header #jumbotron .auth-btn:hover {
+  box-shadow: 10px 10px 20px #00000060;
+  color: white;
+  background-color: #143F5F;
+}
+header #jumbotron .pict-jumbotron {
+  margin-bottom: -13rem;
+}
+header #jumbotron .stats {
+  left: 4rem;
+  right: 4rem;
+  bottom: 6rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.612);
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.26);
+}
+header #jumbotron .stats h1 {
+  font-size: 1rem;
+}
+header #jumbotron .stats p {
+  font-size: 0.5rem;
+}
+header nav .nav-item button {
+  border: solid 3px white;
+  width: 177px;
+  height: 48px;
+}
+header nav .nav-item button:hover {
+  background-color: #143F5F;
+  color: white;
+}
+
+#tentang {
+  margin-top: 15rem;
+}
+#tentang h1 {
+  font-size: 1.25rem;
+}
+#tentang p {
+  font-size: 0.7rem;
+  margin-top: -5px;
+}
+
+.card-layanan .card {
+  box-shadow: 5px 5px 10px #0000006c;
+}
+.card-layanan h5 {
+  font-size: 0.65rem;
+}
+.card-layanan #card-text {
+  font-size: 0.5rem;
+  margin-top: 10px;
+}
+.card-layanan svg {
+  height: 1.313rem;
+}
+.card-icon-layanan {
+  height: 2rem;
+  width: 2rem;
+  margin-top: -1.5rem;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.653);
+  box-shadow: 5px 5px 10px #0000006a;
+}
+
+#fitur {
+  margin-top: 8rem;
+}
+#fitur-left h1{
+  font-size: 1.25rem;
+}
+#fitur-left p{
+  font-size: 0.5rem;
+}
+#fitur-right {
+  margin-bottom: -10rem;
+}
+#fitur-right h1{
+  font-size: 0.938rem;
+}
+#fitur-right p{
+  font-size: 0.625rem;
+}
+#fitur-right .fitur-right-card {
+  width: 9rem;
+  height: 9rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 10px #0000007d;
+}
+
+#store {
+  margin-top: 12rem;
+}
+#store p {
+  font-size:0.55rem;
+}
+
+#steps {
+  margin-top: 3rem;
+}
+#steps .card {
+  box-shadow: 7px 7px 10px #00000051;
+}
+#steps .card-header p {
+  font-size: 0.438rem
+}
+#steps .card-img-bottom {
+  margin-bottom: -8rem;margin-top: -3rem;
+} 
+#steps h5 {
+  font-size: 0.938rem;
+}
+#steps p {
+  font-size: 0.625rem;
+}
+#steps .line {
+  border: dashed 5px white;height: 15rem;border-left: 0;
+}
+#steps .list-icon {
+  gap: 3rem;
+}
+
+#carousel {
+  margin-top: 7rem;
+}
+#carousel .card {
+  box-shadow: 7px 7px 7px #00000047;
+  background-color: rgba(255, 255, 255, 0.734);
+  min-height: 17rem;
+  border-radius: 1rem;
+}
+#carousel .carousel-head p {
+  font-size: 0.625rem;
+}
+#carousel .card h5 {
+  font-size: 1rem;
+}
+#carousel .card .text-center p {
+  margin-top: -0.4rem;
+  font-size: 0.65rem;
+}
+#carousel .card .card-text {
+  font-size: 0.55rem;
+  color: #555555;
+}
+
+#buletin-regist {
+  margin-top: 6rem;
+  margin-bottom: -3rem;
+  margin-inline: 2rem;
+}
+#buletin-regist .card {
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.653);
+  box-shadow: 5px 5px 15px #00000070;
+}
+#buletin-regist h3{
+  font-size: 0.875rem;
+}
+#buletin-regist p{
+  font-size: 0.5rem;
+}
+#buletin-regist input {
+  border: solid 2px #143F5F;
+  border-radius: 7px;
+  font-size: 0.5rem;
+}
+#buletin-regist button {
+  font-size: 0.5rem;
+  color: white;
+  border: solid 2px #143F5F;
+}
+#buletin-regist button:hover {
+  background-color: white;
+  color: #143F5F;
+}
+
+footer img {
+  width: 120px;
+}
+footer h4 {
+  font-size: 1rem;
+}
+footer ul div {
+  font-size: 0.7rem;
+}
+footer a {
+  font-size: 0.7rem;
+}
+footer a:hover {
+  opacity: 75%;
+}
+footer #copyright {
+  font-size: 0.5rem;
+  background-color:#062238;
+}
+
+
+/* Medium */
+@media (min-width: 768px) {  
+  header .logo{
+    width:75px
+  }
+  header .company-name{
+    font-size: calc(1.275rem + 0.3vw) !important
+  }
+  header #jumbotron .murah-lengkap-praktis{
+    margin-top: 8rem;
+  }
+  header #jumbotron .murah-lengkap-praktis h1{
+    font-size: calc(2.7rem + 1.5vw);
+  }
+  header #jumbotron .murah-lengkap-praktis p{
+    font-size: 1.25rem;
+  }
+  header #jumbotron .auth-btn{
+    border-radius: 1rem
+  }
+  header #jumbotron .pict-jumbotron {
+    margin-bottom: -32rem
+  }
+  header #jumbotron .stats {
+    left: 4rem;
+    right: 4rem;
+    bottom: 10rem;
+    border-radius: 20px;
+  }
+  header #jumbotron .stats h1 {
+    font-size:2rem;
+  }
+  header #jumbotron .stats p {
+    font-size: 0.7rem;
+  }
+
+  #tentang {
+    margin-top: 40rem;
+  }
+  #tentang h1 {
+    font-size: 3rem;
+  }
+  #tentang p {
+    font-size: 1.2rem;
+  }
+
+  .card-layanan h5 {
+    font-size: 1.375rem;
+  }
+  .card-layanan #card-text {
+    font-size: 0.575rem;
+  }
+  .card-layanan svg {
+    height: 4rem;
+  }
+  .card-icon-layanan {
+    height: 3rem;
+    width: 3rem;
+    margin-top: -2.3rem;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.653);
+  }
+
+  #fitur {
+    margin-top: 12rem;
+  }
+  #fitur-left h1{
+    font-size: 3rem;
+  }
+  #fitur-left p{
+    font-size: 1.5rem;
+  }
+  #fitur-right h1{
+    font-size: 1.65rem;
+  }
+  #fitur-right p{
+    font-size: 1rem;
+  }
+  #fitur-right .fitur-right-card {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #store {
+    margin-top: 20rem;
+  }
+  #store h5 {
+    font-size:3rem;
+  }
+  #store p {
+    font-size:1.25rem;
+  }
+
+  #steps {
+    margin-top: 10rem;
+  }
+  #steps .card-header h3 {
+    font-size: 3rem;
+  }
+  #steps .card-header p {
+    font-size: 1.25rem;
+  }
+  #steps .card-img-bottom {
+    margin-bottom: -18rem;margin-top: -5rem;
+  }
+  #steps h5 {
+    font-size: 2rem;
+  }
+  #steps p {
+    font-size: 1.5rem;
+  }
+  #steps svg {
+    width: 3rem; height: 3rem;
+  }
+  #steps .line{
+    height: 23rem;
+  }
+  #steps .list-icon {
+    gap: 6rem;
+  }
+
+  #carousel {
+    margin-top: 17rem;
+  }
+  #carousel .card {
+    min-height: 28rem;
+  }
+  #carousel .carousel-head h3 {
+    font-size: 3rem;
+  }
+  #carousel .carousel-head p {
+    font-size: 1.25rem;
+  }
+  #carousel .card h5 {
+    font-size: 1.5rem;
+  }
+  #carousel .card .text-center p {
+    font-size: 1rem;
+  }
+  #carousel .card .card-text {
+    font-size: 0.75rem;
+  }
+
+  #buletin-regist {
+    margin-top: 8rem;
+    margin-inline: 7rem;
+  }
+  #buletin-regist h3{
+    font-size: 2.875rem;
+  }
+  #buletin-regist p{
+    font-size: 1.25rem;
+  }
+  #buletin-regist input {
+    border: solid 3.5px #143F5F;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding-block: 1rem;
+  }
+  #buletin-regist button {
+    font-size: 1rem;
+    padding-block: 1rem;
+    border-radius: 15px;
+  }
+
+  footer img {
+    width: 187px;
+  }
+  footer h4 {
+    font-size: 1.5rem;
+  }
+  footer ul div {
+    font-size: 1rem;
+  }
+  footer a {
+    font-size: 1rem;
+  }
+  footer #copyright {
+    font-size: 1rem;
+  }
+}
+
+
+/* Large */
+@media (min-width: 992px) {
+  header #jumbotron .pict-jumbotron {
+    margin-bottom: -38rem;
+  }
+  header {
+    border-radius: 0 0 150px 150px;
+  }
+  header #jumbotron .stats {
+    left: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    border-radius: 30px;
+  }
+  header #jumbotron .stats h1 {
+    font-size:3rem;
+  }
+  header #jumbotron .stats p {
+    font-size: 1.3rem;
+  }
+
+  .card-icon-layanan {
+    height: 5rem;
+    width: 5rem;
+    margin-top: -3.2rem;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.653);
+  }
+  .card-layanan #card-text {
+    font-size: 0.752rem;
+  }
+
+  #fitur {
+    margin-top: 15rem;
+  }
+  #fitur-right {
+    margin-bottom: -14rem;
+  }
+
+  #steps {
+    padding-inline: 7rem;
+  }
+  #steps .card-img-bottom {
+    margin-bottom: -22rem;
+  }
+  #steps .list-icon {
+    margin-right: -3rem;
+  }
+
+  #carousel .card {
+    min-height: 33rem;
+    border-radius: 2rem;
+  }
+  #carousel .carousel-item {
+    padding: 3rem 8rem;
+  }
+  #carousel .card h5 {
+    font-size: 2rem;
+  }
+  #carousel .card .card-text {
+    font-size: 1rem;
+  }
+
+  #buletin-regist {
+    margin-inline: 12rem;
+  }
+  #buletin-regist input {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+  #fitur-right h1{
+    font-size: 2.125rem;
+  }
+  #fitur-right p{
+    font-size: 1.5rem;
+  }
+  #fitur-right .fitur-right-card {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .card-layanan #card-text {
+    font-size: 1rem;
+  }
+}
